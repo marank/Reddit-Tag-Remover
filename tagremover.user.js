@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name        Remove Tags on /r/jailbreak
-// @namespace   marank
+// @name        Reddit Tag Remover
+// @namespace   https://github.com/marank
 // @include     https://www.reddit.com/r/jailbreak*
-// @version     1
+// @version     0.1
 // @grant       none
 // ==/UserScript==
 
