@@ -1,8 +1,9 @@
 // ==UserScript==
 // @name        Reddit Tag Remover
+// @description Removes tags from post titles
 // @namespace   https://github.com/marank
 // @include     https://www.reddit.com/r/jailbreak*
-// @version     0.1
+// @version     0.2
 // @grant       none
 // ==/UserScript==
 
