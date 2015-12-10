@@ -33,3 +33,6 @@ I recommend using a userscript manager, for example:
 
 ##### 0.3
 * Support for RES Never Ending Reddit
+
+##### 0.4
+* Hyphens after tags are now being removed as well
