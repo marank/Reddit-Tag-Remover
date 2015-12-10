@@ -3,7 +3,7 @@
 // @description Removes tags from post titles
 // @namespace   https://github.com/marank
 // @include     https://www.reddit.com/r/jailbreak*
-// @version     0.3
+// @version     0.4
 // @grant       none
 // ==/UserScript==
 
@@ -15,7 +15,7 @@ window.addEventListener('neverEndingLoad', function (e) {
 
 function removeTags() {
   $('a.title').not('.rtr_tagRemoved').each(function () {
-    $(this).text($(this).text().replace(/^\[[a-zA-Z]*\]\s*/, ''));
+    $(this).text($(this).text().replace(/^\[[a-zA-Z]*\][\s-]*/, ''));
     $(this).addClass('rtr_tagRemoved');
   });
 }
